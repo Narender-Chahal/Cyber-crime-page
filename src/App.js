@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+import MyNavbar from "./components/MyNavbar";
+import HeadSection from "./components/HeadSection";
+import Mission from "./components/Mission";
+import PartnerSection from "./components/PartnerSection";
+import Alogo from "./components/Alogo";
+import WhatSection from "./components/WhatSection";
+import Work from "./components/Work";
+import MeetTeam from "./components/MeetTeam";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Roadmap from "./components/Roadmap";
+import Faq from "./components/Faq";
+import FoterSection from "./components/FoterSection";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MyNavbar />
+      <HeadSection />
+      <Mission />
+      <PartnerSection />
+      <Alogo />
+      <WhatSection />
+      <Work />
+      <MeetTeam />
+      <Roadmap />
+      <Faq />
+      <FoterSection/>
+    </>
   );
 }
 
