@@ -9,7 +9,7 @@ function Mission() {
       <div className="circle_blur position-absolute misson2_blur_circle_adjust"></div>
       <Container>
         <Row className="py-5 align-items-center justify-content-center text-center text-lg-start">
-          <Col lg={6} md={8}>
+          <Col lg={6} md={6} sm={8}xs={8}>
             <div className="d-flex justify-content-start pb-5 pb-lg-0">
               {" "}
               <img className="w_100_lg" src={mission} alt="mission" />

@@ -17,8 +17,10 @@ import FoterSection from "./components/FoterSection";
 function App() {
   return (
     <>
-      <MyNavbar />
-      <HeadSection />
+      <div className="d-flex flex-column vh_100 ">
+        <MyNavbar />
+        <HeadSection />
+      </div>
       <Mission />
       <PartnerSection />
       <Alogo />
@@ -27,7 +29,7 @@ function App() {
       <MeetTeam />
       <Roadmap />
       <Faq />
-      <FoterSection/>
+      <FoterSection />
     </>
   );
 }

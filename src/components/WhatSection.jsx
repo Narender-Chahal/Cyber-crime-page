@@ -7,34 +7,41 @@ import umbrela1 from "../assets/img/png/umb1.png";
 function WhatSection() {
   return (
     <section className="bg-black py-5 position-relative">
-      <div className="position-absolute end-0 umbrela1_img_adjust d-none d-xl-flex">
-        {" "}
-        <img src={umbrela1} alt="umbrela1" />{" "}
-      </div>{" "}
+      <div className="position-absolute end-0 umbrela1_img_adjust d-none d-lg-flex">
+        <img className="what_max_width_perasuit" src={umbrela1} alt="umbrela1" />
+      </div>
       <div className="circle_blur position-absolute what_blur_circle_adjust"></div>
       <div className="circle_blur position-absolute what2_blur_circle_adjust"></div>
-      <Container>
-        <Row className="align-items-center justify-content-between">
+      <Container className="custom_container">
+        <Row className="align-items-center justify-content-lg-between justify-cont ent-center justify-co ntent-lg-start">
           <Col lg={6} className="py-4 py-lg-0">
             <Row className="justify-content-start">
               <Col sm={5} xs={5}>
                 <img className="w-100" src={polygon1} alt="polygon1" />
               </Col>
               <Col sm={5} xs={5}>
-                <img className="w-100" src={polygon1} alt="polygon1" />
+                <img className="w-100" src={polygon2} alt="polygon2" />
               </Col>
             </Row>
             <Row className="justify-content-end">
               <Col sm={5} xs={5}>
-                <img className="w-100" src={polygon1} alt="polygon1" />
+                <img className="w-100" src={polygon3} alt="polygon3" />
               </Col>
               <Col sm={5} xs={5}>
-                <img className="w-100" src={polygon1} alt="polygon1" />
+                <img className="w-100" src={polygon3} alt="polygon3" />
               </Col>
             </Row>
+            {/* <div className="d-flex justify-content-start">
+              <img className="w-75" src={polygon1} alt="polygon1" />
+              <img className="75" src={polygon1} alt="polygon1" />
+            </div>
+            <div className="d-flex ms-5 ps-5">
+              <img className="w-75" src={polygon1} alt="polygon1" />
+              <img className="w-75" src={polygon1} alt="polygon1" />
+            </div> */}
           </Col>
+
           <Col lg={5} className="text-center text-lg-start pt-3">
-            {" "}
             <h2 className="ff_lato fw-bold fs_3xl mb-0 text-white">
               What <span className="clr_orange">we do</span>
             </h2>

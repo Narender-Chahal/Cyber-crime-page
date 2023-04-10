@@ -34,10 +34,10 @@ function Roadmap() {
             Road<span className="clr_orange">Map</span>{" "}
           </h2>
         </div>
-        <div className=" position-relative ">
-          <div className=" d-flex justify-content-sm-center ms-4 ms-sm-0">
+        <div className=" position-relative mb-5 mb-sm-0 ">
+          <div className=" d-flex justify-content-sm-center ms-4 ms-sm-0 mh_xsm">
             {" "}
-            <img className="h-100 " src={roadmap_img} alt="roadmap_img" />
+            <img className="h-100 mh_xsm" src={roadmap_img} alt="roadmap_img" />
           </div>{" "}
           <div className=" position-absolute roadmap1_adjust">
             <img className="w-100 mw_100" src={roadmap1} alt="roadmap1" />
@@ -46,7 +46,7 @@ function Roadmap() {
             <h2 className="ff-semibold ff_lato fs_lg text-white mb-0">
               March 2022
             </h2>
-            <p className="mb-0 ff_lato fw-normal fs_sxm text-white pt-3 max-width">
+            <p className="mb-0 ff_lato fw-normal fs_xsm text-white pt-sm-3 max-width">
               1000 Drops Launch on Ethereum
             </p>
           </div>
@@ -67,7 +67,7 @@ function Roadmap() {
               <h2 className="ff-semibold ff_lato fs_lg text-white mb-0">
                 March 2022
               </h2>
-              <p className="mb-0 ff_lato fw-normal fs_sxm text-white pt-3 max-width">
+              <p className="mb-0 ff_lato fw-normal fs_xsm text-white pt-sm-3 max-width">
                 1000 Drops Launch on Ethereum
               </p>
             </div>
@@ -80,7 +80,7 @@ function Roadmap() {
               <h2 className="ff-semibold ff_lato fs_lg text-white mb-0">
                 March 2022
               </h2>
-              <p className="mb-0 ff_lato fw-normal fs_sxm text-white pt-3">
+              <p className="mb-0 ff_lato fw-normal fs_xsm text-white sm-3">
                 Creation of Treasury{" "}
               </p>
             </div>
@@ -102,7 +102,7 @@ function Roadmap() {
               <h2 className="ff-semibold ff_lato fs_lg text-white mb-0">
                 April 2022{" "}
               </h2>
-              <p className="mb-0 ff_lato fw-normal fs_sxm text-white pt-3">
+              <p className="mb-0 ff_lato fw-normal fs_xsm text-white pt-sm-3">
                 Our First Airdrop{" "}
               </p>
             </div>
@@ -115,7 +115,7 @@ function Roadmap() {
               <h2 className="ff-semibold ff_lato fs_lg text-white mb-0">
                 June 2022{" "}
               </h2>
-              <p className="mb-0 ff_lato fw-normal fs_sxm text-white pt-3">
+              <p className="mb-0 ff_lato fw-normal fs_xsm text-white pt-sm-3">
                 Major Collabs{" "}
               </p>
             </div>
@@ -137,7 +137,7 @@ function Roadmap() {
               <h2 className="ff-semibold ff_lato fs_lg text-white mb-0">
                 Sometime in Q3{" "}
               </h2>
-              <p className="mb-0 ff_lato fw-normal fs_sxm text-white pt-3 max-width">
+              <p className="mb-0 ff_lato fw-normal fs_sxm text-white pt-sm-3 max-width">
                 Cyber Celebs come on Ethereum{" "}
               </p>
             </div>
@@ -150,7 +150,7 @@ function Roadmap() {
               <h2 className="ff-semibold ff_lato fs_lg text-white mb-0">
                 Sometime in Q3{" "}
               </h2>
-              <p className="mb-0 ff_lato fw-normal fs_sxm text-white pt-3 max-width">
+              <p className="mb-0 ff_lato fw-normal fs_sxm text-white pt-sm-3 max-width">
                 Cyber Celebs come on Ethereum{" "}
               </p>
             </div>
@@ -172,7 +172,7 @@ function Roadmap() {
               <h2 className="ff-semibold ff_lato fs_lg text-white mb-0">
                 Sometime in Q4{" "}
               </h2>
-              <p className="mb-0 ff_lato fw-normal fs_sxm text-white pt-3">
+              <p className="mb-0 ff_lato fw-normal fs_xsm text-white pt-sm-3">
                 Enhanced Partnerships{" "}
               </p>
             </div>

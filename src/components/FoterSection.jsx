@@ -75,7 +75,7 @@ function FoterSection() {
             </div>
             <div className="boder_img d-flex align-items-center justify-content-center position-relative me-3 pb-1">
               {" "}
-              <div className="blur_img1"></div>
+              <div className="blur_img"></div>
               <a className=" " href="#">
                 <svg
                   width="25"

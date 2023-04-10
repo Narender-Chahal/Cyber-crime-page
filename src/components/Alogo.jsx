@@ -7,8 +7,8 @@ function Alogo() {
   return (
     <section className="bg-black pt-xl-5 pb-lg-5">
       <Container>
-        <Row className="align-items-center flex-column-reverse flex-lg-row">
-          <Col lg={6} className="pt-5 text-center text-lg-start">
+        <Row className="align-items-center flex-column-reverse flex-lg-row justify-content-center">
+          <Col lg={6}  className="pt-5 text-center text-lg-start">
             <h2 className="ff_lato fw-bold fs_3xl mb-0 text-white">
               Our <span className="clr_orange">Algo</span>
             </h2>
@@ -25,7 +25,7 @@ function Alogo() {
             </p>
           </Col>
           <Col
-            lg={6}
+            lg={6} sm={8} xs={10}
             className="justify-content-lg-end  justify-content-center d-flex pt-lg-5 "
           >
             <div className="d-flex align-items-center">

@@ -15,7 +15,7 @@ function Work() {
                 <h2 className="circle d-flex justify-content-center align-items-center ff_lato fw-bold fs_xl mb-0">
                   01
                 </h2>
-              </div>{" "}
+              </div>{" "}``
               <h3 className="mb-0 text-white ff_lato fw-bold fs_md pt-3 mt-1">
                 Mint NFT
               </h3>
@@ -26,10 +26,10 @@ function Work() {
             </div>
           </Col>
           <Col lg={3} md={4} sm={6} className="pt-4">
-            <div className="card2 h-100 text-center px-4 py-4   ">
+            <div className="card1 h-100 text-center px-4 py-4   ">
               <div className=" d-flex justify-content-center align-items-center pb-1 ">
                 {" "}
-                <h2 className="circle2 d-flex justify-content-center align-items-center ff_lato fw-bold fs_xl mb-0">
+                <h2 className="circle d-flex justify-content-center align-items-center ff_lato fw-bold fs_xl mb-0">
                   02
                 </h2>
               </div>{" "}
